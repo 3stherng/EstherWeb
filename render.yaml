@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: estherweb-client
+    env: static
+    buildCommand: cd client && npm install && npm run build
+    staticPublishPath: ./client/build
+    envVars:
+      - key: NODE_ENV
+        value: production
+
+  - type: web
+    name: estherweb-api
+    env: node
+    region: ohio
+    buildCommand: cd server && npm install && npm run build
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
