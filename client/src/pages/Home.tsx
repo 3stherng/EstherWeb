@@ -1,24 +1,21 @@
-import { Container, Row } from 'react-bootstrap';
-
-import HeroSection from '../components/HeroSection';
-import SectionCard from '../components/SectionCard';
+import { Row, Container } from "react-bootstrap";
+import HeroSection from "../components/HeroSection";
+import BinaryHeader from "../components/Header";
+import AboutCard from "../components/AboutCard";
 
 const Home = () => (
   <>
-    <HeroSection />
-    <Container className="text-center py-5">
-      <Row>
-        <SectionCard
-          title="CV"
-          description="My experience, skills, and education."
-          link="/cv"
-        />
-        <SectionCard
-          title="Projects"
-          description="Selected works that reflect my journey."
-          link="/projects"
-        />
+      <Row className="text-center mb-5"></Row>
+      <BinaryHeader />
+    <Container fluid className="bg-light py-5">
+      <HeroSection />
+    </Container>
+
+    <Container className="py-5">
+      <Row className="g-4">
+        <AboutCard />
       </Row>
+      <Row className="text-center mb-4"></Row>
     </Container>
   </>
 );
