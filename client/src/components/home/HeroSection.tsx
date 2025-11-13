@@ -18,7 +18,7 @@ const HeroSection = () => {
 
           <h2 className="fw-bold fs-3 text-success">
             ☁️ Cloud Engineer <span className="text-secondary">|</span>{" "}
-            <span className="text-secondary"> 👩🏻‍💻 Software Engineer</span>
+            <span className="text-secondary"> Software Engineer 👩🏻‍💻</span>
           </h2>
           <p className="lead mt-3 text-dark fw-light fst-italic">
             Driven by <span className="text-primary">code</span>, powered by the{" "}

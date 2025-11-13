@@ -1,0 +1,78 @@
+{
+  "header": {
+    "name": "Esther Ng",
+    "title": "Cloud Engineer | Software Engineer | AWS, C++, Python",
+    "location": "Kuala Lumpur, MY",
+    "linkedin": "https://www.linkedin.com/in/estherng",
+    "image": "/Headshot.jpg",
+    "cv": "/CV_Esther-Ng.pdf"
+  },
+  "techStack": [
+    { "label": "C++", "color": "#0d6efd" },
+    { "label": "Python", "color": "#198754" },
+    { "label": "AWS", "color": "#0dcaf0", "textColor": "#000" },
+    { "label": "Azure CI/CD", "color": "#212529" },
+    { "label": "React", "color": "#ffc107", "textColor": "#000" },
+    { "label": "Docker", "color": "#6c757d" }
+  ],
+  "profile": "Passionate software engineer with a strong foundation in C++ and Python, experienced in developing high-performance desktop applications and automating testing workflows. Enthusiastic about cloud computing and DevOps, with hands-on experience in AWS and Azure CI/CD. Committed to continuous learning and delivering impactful software solutions.",
+  "skills": {
+    "technical": [
+      "Languages: C++, Python, TypeScript, C#, Bash, PowerShell",
+      "Frameworks/Tools: MFC, React, NodeJS, PyTest, Unittest, Docker",
+      "DevOps/Cloud: Azure CI/CD, AWS",
+      "Others: Git, Linux OS"
+    ],
+    "soft": [
+      "Attention to detail",
+      "Critical thinking",
+      "Time management",
+      "Accountability"
+    ]
+  },
+  "education": [
+    {
+      "institution": "Modern C++ Academy – Materialise Sdn Bhd",
+      "period": "Jun–Nov 2023",
+      "project": "Drawing Application (MFC, C++)"
+    },
+    {
+      "institution": "Bachelor of Engineering (Hons) in Biomedical Engineering, UTAR",
+      "period": "2018–2022",
+      "cgpa": "3.7461",
+      "project": "Medication Advisor Mobile App"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Cloud Engineer",
+      "company": "Deloitte",
+      "period": "Oct 2025–Present",
+      "details": ["Currently contributing to cloud infrastructure projects"]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Materialise",
+      "period": "Apr 2024–Sep 2025",
+      "details": [
+        "Developed high-performance C++ and C# desktop applications",
+        "Led code reviews to uphold coding standards",
+        "Optimized Azure CI/CD pipelines for faster deployment",
+        "Integrated AWS services to enhance workflows",
+        "Used GitHub Copilot to accelerate development"
+      ]
+    },
+    {
+      "role": "Software Test Engineer",
+      "company": "Materialise",
+      "period": "Jun 2022–May 2024",
+      "details": [
+        "Automated testing workflows using Python",
+        "Reduced manual testing effort by 85%",
+        "Enhanced Azure DevOps pipelines for release efficiency",
+        "Built Docker-based parallel testing solution",
+        "Won 1st place in internal hackathon for testing innovation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Planning Poker Web App",
+    "description": "Beginner practice project to explore full‑stack development. Demonstrates skills in frontend design and backend APIs. Work in progress.",
+    "badges": [
+      { "label": "React", "color": "#0dcaf0" },
+      { "label": "Node.js", "color": "#198754" },
+      { "label": "TypeScript", "color": "#ffc107", "textColor": "#000000" }
+    ],
+    "buttons": [
+      {
+        "label": "Live Web App",
+        "href": "https://planpoker.estherng.work",
+        "color": "#0d6efd"
+      },
+      {
+        "label": "GitHub Repo",
+        "href": "https://github.com/3stherng/PlanningPoker",
+        "color": "#212529"
+      }
+    ]
+  },
+  {
+    "title": "2D Drawing Application",
+    "description": "Beginner desktop application built with C++ and MFC. Practice project for learning graphics rendering and UI components.",
+    "badges": [
+      { "label": "C++", "color": "#dc3545" },
+      { "label": "MFC", "color": "#6c757d" }
+    ],
+    "buttons": [
+      {
+        "label": "Download MSI Installer (Coming Soon)",
+        "href": "https://github.com/yourusername/2d-drawing-app/releases/download/v1.0/Setup.msi",
+        "color": "#0d6efd"
+      },
+      {
+        "label": "GitHub Repo",
+        "href": "https://github.com/3stherng/DrawingApp",
+        "color": "#212529"
+      }
+    ]
+  }
+]
