@@ -7,6 +7,7 @@ import TechStack from "../components/about_me/TechStacks";
 import ProfileSummary from "../components/about_me/ProfileSummary";
 import Skills from "../components/about_me/Skills";
 import Education from "../components/about_me/Education";
+import Certification from "../components/about_me/Certifications";
 import Experience from "../components/about_me/Experience";
 
 const AboutMe: React.FC = () => {
@@ -28,6 +29,8 @@ const AboutMe: React.FC = () => {
       <Skills technical={aboutData.skills.technical} soft={aboutData.skills.soft} />
 
       <Education education={aboutData.education} />
+
+      <Certification certification={aboutData.certification} />
 
       <Experience experience={aboutData.experience} />
     </Container>

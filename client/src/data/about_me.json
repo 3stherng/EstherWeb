@@ -1,11 +1,11 @@
 {
   "header": {
     "name": "Esther Ng",
-    "title": "Cloud Engineer | Software Engineer | AWS, C++, Python",
+    "title": "Cloud Engineer • Software Engineer | AWS, C++, Python",
     "location": "Kuala Lumpur, MY",
     "linkedin": "https://www.linkedin.com/in/estherng",
     "image": "/Headshot.jpg",
-    "cv": "/CV_Esther-Ng.pdf"
+    "cv": "1UXJ1wiXNTr7DuySvTmFhIlfjr_x5hqJ2|CV-Esther_Ng.pdf"
   },
   "techStack": [
     { "label": "C++", "color": "#0d6efd" },
@@ -15,13 +15,13 @@
     { "label": "React", "color": "#ffc107", "textColor": "#000" },
     { "label": "Docker", "color": "#6c757d" }
   ],
-  "profile": "Passionate software engineer with a strong foundation in C++ and Python, experienced in developing high-performance desktop applications and automating testing workflows. Enthusiastic about cloud computing and DevOps, with hands-on experience in AWS and Azure CI/CD. Committed to continuous learning and delivering impactful software solutions.",
+  "profile": "Passionate Software Engineer eager to tackle complex challenges and grow through continuous learning. Skilled in C++ and Python, with proven success in automation, cloud engineering (AWS, Azure CI/CD), and DevOps practices. Dedicated to building solutions that accelerate delivery and empower teams.",
   "skills": {
     "technical": [
-      "Languages: C++, Python, TypeScript, C#, Bash, PowerShell",
-      "Frameworks/Tools: MFC, React, NodeJS, PyTest, Unittest, Docker",
-      "DevOps/Cloud: Azure CI/CD, AWS",
-      "Others: Git, Linux OS"
+      "Language: C++, Python, Typescript, C#, Bash, Powershell.",
+      "Frameworks & Tools: MFC, React, NodeJS, Docker.",
+      "API & Testing: Postman, PyTest, Unittest.",
+      "Others: Git, Linux (Ubuntu, Bash scripting)."
     ],
     "soft": [
       "Attention to detail",
@@ -43,23 +43,28 @@
       "project": "Medication Advisor Mobile App"
     }
   ],
+  "certification": [
+    {
+      "institution": "AWS Cloud Practitioner",
+      "period": "Dec 2024 - Dec 2027"
+    }
+  ],
   "experience": [
     {
       "role": "Cloud Engineer",
       "company": "Deloitte",
       "period": "Oct 2025–Present",
-      "details": ["Currently contributing to cloud infrastructure projects"]
+      "details": ["Supporting the development of internal IaaS services, including account onboarding and infrastructure provisioning."]
     },
     {
       "role": "Software Engineer",
       "company": "Materialise",
       "period": "Apr 2024–Sep 2025",
       "details": [
-        "Developed high-performance C++ and C# desktop applications",
-        "Led code reviews to uphold coding standards",
-        "Optimized Azure CI/CD pipelines for faster deployment",
-        "Integrated AWS services to enhance workflows",
-        "Used GitHub Copilot to accelerate development"
+        "Developed and maintained high-performance C++ desktop applications.",
+        "Participate in code reviews to uphold coding standards.",
+        "Streamlined Azure CI/CD pipelines, enhancing build and test efficiency by automating key processes and reducing deployment time.",
+        "Leveraged AI tools such as GitHub Copilot to accelerate coding tasks, reduce boilerplate, and improve development efficiency."
       ]
     },
     {
@@ -67,11 +72,9 @@
       "company": "Materialise",
       "period": "Jun 2022–May 2024",
       "details": [
-        "Automated testing workflows using Python",
-        "Reduced manual testing effort by 85%",
-        "Enhanced Azure DevOps pipelines for release efficiency",
-        "Built Docker-based parallel testing solution",
-        "Won 1st place in internal hackathon for testing innovation"
+        "Automated testing workflows using Python, reducing manual testing effort by 85%.",
+        "Optimized Azure DevOps release pipeline by integrating webhook‐driven report summaries directly into MS Teams, improving visibility.",
+        "Engineered a Docker‐based parallel testing solution that cut test execution time significantly."
       ]
     }
   ]
