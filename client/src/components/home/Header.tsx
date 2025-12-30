@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 
-const BinaryHeader = () => (
+const Header = () => (
   <Row className="text-center mb-4">
     <Col>
       <div
@@ -23,4 +23,4 @@ const BinaryHeader = () => (
   </Row>
 );
 
-export default BinaryHeader;
+export default Header;

@@ -1,12 +1,12 @@
 import { Row, Container } from "react-bootstrap";
 import HeroSection from "../components/home/HeroSection";
-import BinaryHeader from "../components/home/Header";
+import Header from "../components/home/Header";
 import AboutCard from "../components/home/AboutCard";
 
 const Home = () => (
   <Container className="my-5">
     <Row className="text-center mb-5"></Row>
-    <BinaryHeader />
+    <Header />
     <Container fluid className="bg-light py-5">
       <HeroSection />
     </Container>
