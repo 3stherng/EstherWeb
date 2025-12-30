@@ -19,7 +19,7 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => (
       <ul>
         {experience.map((exp, idx) => (
           <li key={idx}>
-              <strong>{exp.role}</strong> – {exp.company} ({exp.period})
+            <strong>{exp.role}</strong> – {exp.company} ({exp.period})
             <ul>
               {exp.details.map((d, i) => (
                 <li key={i}>{d}</li>
@@ -28,14 +28,12 @@ const Experience: React.FC<ExperienceProps> = ({ experience }) => (
           </li>
         ))}
       </ul>
-      <div className="mt-4 d-flex justify-content-center">
-        <Image
-          src={process.env.PUBLIC_URL + "/TriangleAward_Materialise.png"}
-          alt="Materialise Award"
-          rounded
-          style={{ width: 500, height: "auto", objectFit: "contain" }}
-        />
-      </div>
+      <Image
+        src={process.env.PUBLIC_URL + "/TriangleAward_Materialise.png"}
+        alt="Materialise Award"
+        rounded
+        style={{ width: 400, height: "auto", objectFit: "contain" }}
+      />
     </Card.Body>
   </Card>
 );
