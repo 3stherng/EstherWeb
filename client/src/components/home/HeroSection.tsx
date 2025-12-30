@@ -9,7 +9,7 @@ const HeroSection = () => {
           <h1 className="fw-bold display-2">
             <span
               style={{
-                color: "#001f3f", // dark navy blue
+                color: "#001f3f",
               }}
             >
               Esther NG

@@ -1,11 +1,12 @@
 import React from "react";
-import { Card, Badge, Button } from "react-bootstrap";
+import { Card, Badge, Button, Image } from "react-bootstrap";
 
 interface ProjectCardProps {
   title: string;
   description: string;
   badges: { label: string; color: string; textColor?: string }[];
   buttons: { label: string; href: string; color: string }[];
+  image?: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -13,6 +14,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
   badges,
   buttons,
+  image,
 }) => {
   return (
     <Card className="h-100 shadow border-0 bg-light">
@@ -48,6 +50,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {btn.label}
           </Button>
         ))}
+        {image && (
+          <div className="mt-4 d-flex justify-content-center">
+            <Image
+              src={process.env.PUBLIC_URL + image}
+              alt={title + " Image"}
+              rounded
+              style={{ width: "100%", height: "auto", objectFit: "contain" }}
+            />
+          </div>
+        )}
       </Card.Body>
     </Card>
   );

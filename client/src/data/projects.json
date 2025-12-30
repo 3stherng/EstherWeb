@@ -1,40 +1,42 @@
 [
   {
-    "title": "Planning Poker Web App",
+    "title": "Planning Poker Web Application",
     "description": "Beginner practice project to explore full‑stack development. Demonstrates skills in frontend design and backend APIs. Work in progress.",
     "badges": [
-      { "label": "React", "color": "#0dcaf0" },
-      { "label": "Node.js", "color": "#198754" },
-      { "label": "TypeScript", "color": "#ffc107", "textColor": "#000000" }
+      { "label": "React", "color": "#61DAFB", "textColor": "#000000" },
+      { "label": "Node.js", "color": "#3C873A" },
+      { "label": "TypeScript", "color": "#3178C6" }
     ],
     "buttons": [
       {
-        "label": "Live Web App",
+        "label": "View App",
         "href": "https://planpoker.estherng.work",
         "color": "#0d6efd"
       },
       {
-        "label": "GitHub Repo",
+        "label": "View Repo",
         "href": "https://github.com/3stherng/PlanningPoker",
         "color": "#212529"
       }
-    ]
+    ],
+    "image": "/PlanningPokerDemo.png"
   },
   {
-    "title": "2D Drawing Application",
+    "title": "2D Drawing Desktop Application",
     "description": "Beginner desktop application built with C++ and MFC. Practice project for learning graphics rendering and UI components.",
     "badges": [
-      { "label": "C++", "color": "#dc3545" },
-      { "label": "MFC", "color": "#6c757d" }
+      { "label": "C++", "color": "#044F88" },
+      { "label": "MFC", "color": "#00285E" }
     ],
     "buttons": [
       {
-        "label": "Download MSI Installer (Coming Soon)",
-        "href": "https://github.com/yourusername/2d-drawing-app/releases/download/v1.0/Setup.msi",
-        "color": "#0d6efd"
+        "label": "Download",
+        "href": "https://github.com/3stherng/DrawingApp",
+        "color": "#0d6efd",
+        "disabled": true
       },
       {
-        "label": "GitHub Repo",
+        "label": "View Repo",
         "href": "https://github.com/3stherng/DrawingApp",
         "color": "#212529"
       }

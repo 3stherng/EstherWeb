@@ -23,6 +23,7 @@ const Projects: React.FC = () => {
               description={project.description}
               badges={project.badges}
               buttons={project.buttons}
+              image={project.image}
             />
           </Col>
         ))}

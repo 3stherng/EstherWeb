@@ -7,16 +7,14 @@
     "image": "/Headshot.jpg",
     "cv": "1UXJ1wiXNTr7DuySvTmFhIlfjr_x5hqJ2|CV-Esther_Ng.pdf"
   },
-  "techStack": [
-    { "label": "C++", "color": "#0d6efd" },
-    { "label": "Python", "color": "#198754" },
-    { "label": "AWS", "color": "#0dcaf0", "textColor": "#000" },
-    { "label": "Azure CI/CD", "color": "#212529" },
-    { "label": "React", "color": "#ffc107", "textColor": "#000" },
-    { "label": "Docker", "color": "#6c757d" }
-  ],
   "profile": "Passionate Software Engineer eager to tackle complex challenges and grow through continuous learning. Skilled in C++ and Python, with proven success in automation, cloud engineering (AWS, Azure CI/CD), and DevOps practices. Dedicated to building solutions that accelerate delivery and empower teams.",
   "skills": {
+    "techStack": [
+      { "label": "C++", "color": "#044F88" },
+      { "label": "Python", "color": "#4B8BBE" },
+      { "label": "Typescript", "color": "#3178C6" },
+      { "label": "AWS", "color": "#FF9900", "textColor": "#000" }
+    ],
     "technical": [
       "Language: C++, Python, Typescript, C#, Bash, Powershell.",
       "Frameworks & Tools: MFC, React, NodeJS, Docker.",
@@ -33,12 +31,12 @@
   "education": [
     {
       "institution": "Modern C++ Academy – Materialise Sdn Bhd",
-      "period": "Jun–Nov 2023",
+      "period": "Jun – Nov 2023",
       "project": "Drawing Application (MFC, C++)"
     },
     {
       "institution": "Bachelor of Engineering (Hons) in Biomedical Engineering, UTAR",
-      "period": "2018–2022",
+      "period": "2018 – 2022",
       "cgpa": "3.7461",
       "project": "Medication Advisor Mobile App"
     }
@@ -53,13 +51,15 @@
     {
       "role": "Cloud Engineer",
       "company": "Deloitte",
-      "period": "Oct 2025–Present",
-      "details": ["Supporting the development of internal IaaS services, including account onboarding and infrastructure provisioning."]
+      "period": "Oct 2025 – Present",
+      "details": [
+        "Supporting the development of internal IaaS services, including account onboarding and infrastructure provisioning."
+      ]
     },
     {
       "role": "Software Engineer",
       "company": "Materialise",
-      "period": "Apr 2024–Sep 2025",
+      "period": "Apr 2024 – Sep 2025",
       "details": [
         "Developed and maintained high-performance C++ desktop applications.",
         "Participate in code reviews to uphold coding standards.",
@@ -70,7 +70,7 @@
     {
       "role": "Software Test Engineer",
       "company": "Materialise",
-      "period": "Jun 2022–May 2024",
+      "period": "Jun 2022 – May 2024",
       "details": [
         "Automated testing workflows using Python, reducing manual testing effort by 85%.",
         "Optimized Azure DevOps release pipeline by integrating webhook‐driven report summaries directly into MS Teams, improving visibility.",
