@@ -1,7 +1,7 @@
 [
   {
     "title": "Planning Poker Web Application",
-    "description": "Beginner practice project to explore full‑stack development. Demonstrates skills in frontend design and backend APIs. Work in progress.",
+    "description": "Project to explore full‑stack development. Demonstrates skills in frontend design and backend APIs.",
     "badges": [
       { "label": "React", "color": "#61DAFB", "textColor": "#000000" },
       { "label": "Node.js", "color": "#3C873A" },
@@ -23,7 +23,7 @@
   },
   {
     "title": "2D Drawing Desktop Application",
-    "description": "Beginner desktop application built with C++ and MFC. Practice project for learning graphics rendering and UI components.",
+    "description": "Desktop application built with C++ and MFC. Practice project for learning graphics rendering and UI components.",
     "badges": [
       { "label": "C++", "color": "#044F88" },
       { "label": "MFC", "color": "#00285E" }

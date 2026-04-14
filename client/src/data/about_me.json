@@ -7,7 +7,7 @@
     "image": "/Headshot.jpg",
     "cv": "1UXJ1wiXNTr7DuySvTmFhIlfjr_x5hqJ2|CV-Esther_Ng.pdf"
   },
-  "profile": "Passionate Software Engineer eager to tackle complex challenges and grow through continuous learning. Skilled in C++ and Python, with proven success in automation, cloud engineering (AWS, Azure CI/CD), and DevOps practices. Dedicated to building solutions that accelerate delivery and empower teams.",
+  "profile": "Results-driven Software Engineer with a strong passion for solving complex problems and building scalable, high-performance systems. Proficient in C++ and Python, with hands-on experience in web development using React and TypeScript, as well as automation, cloud engineering, and DevOps practices, including AWS and Azure CI/CD pipelines. Proven ability to deliver efficient solutions that streamline processes, accelerate development cycles, and enhance system reliability. Brings a versatile skill set across backend, frontend, and cloud technologies, with a strong commitment to continuous learning and high-impact engineering.",
   "skills": {
     "techStack": [
       { "label": "C++", "color": "#044F88" },
@@ -17,7 +17,7 @@
     ],
     "technical": [
       "Language: C++, Python, Typescript, C#, Bash, Powershell.",
-      "Frameworks & Tools: MFC, React, NodeJS, Docker.",
+      "Frameworks & Tools: MFC, ReactJS, NodeJS, Docker.",
       "API & Testing: Postman, PyTest, Unittest.",
       "Others: Git, Linux (Ubuntu, Bash scripting)."
     ],
@@ -53,7 +53,9 @@
       "company": "Deloitte",
       "period": "Oct 2025 – Present",
       "details": [
-        "Supporting the development of internal IaaS services, including account onboarding and infrastructure provisioning."
+        "Developed and enhanced internal IaaS services, including account onboarding workflows and infrastructure provisioning.",
+        "Managed and resolved service requests and incident tickets, diagnosing issues and delivering timely, effective solutions.",
+        "Collaborated with cross-functional teams to maintain and improve cloud infrastructure reliability and performance."
       ]
     },
     {
