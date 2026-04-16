@@ -10,11 +10,13 @@
     "buttons": [
       {
         "label": "View App",
+        "is_web": true,
         "href": "https://planpoker.estherng.work",
         "color": "#0d6efd"
       },
       {
         "label": "View Repo",
+        "is_web": true,
         "href": "https://github.com/3stherng/PlanningPoker",
         "color": "#212529"
       }
@@ -31,15 +33,18 @@
     "buttons": [
       {
         "label": "Download",
-        "href": "https://github.com/3stherng/DrawingApp",
+        "is_web": false,
+        "href": "1WeioGca81WH5x6kkNJisErqHuJHtzKOy|DrawIt.msi",
         "color": "#0d6efd",
-        "disabled": true
+        "disabled": false
       },
       {
         "label": "View Repo",
+        "is_web": true,
         "href": "https://github.com/3stherng/DrawingApp",
         "color": "#212529"
       }
-    ]
+    ],
+    "image": "/Screenshot_DrawIt.png"
   }
 ]
